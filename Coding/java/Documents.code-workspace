@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Downloads/Documents"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	},
+	"settings": {
+		"editor.suggest.showWords": false,
+		"editor.suggest.showKeywords": false
+	}
+}
