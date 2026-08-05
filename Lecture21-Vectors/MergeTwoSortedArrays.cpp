@@ -1,7 +1,7 @@
 #include <iostream>
-#include <climits>
+// #include <climits>
 #include <vector>
-#include <algorithm>
+// #include <algorithm>
 using namespace std;
 
 int main()
@@ -11,7 +11,7 @@ int main()
     int m = sizeof(a)/4, n = sizeof(b)/4;
     int c[m+n];
     int i =0,j=0, k=0;
-   while (i <= m && j < n) {
+    while (i <= m && j < n) {
     if (a[i] < b[j])
         c[k++] = a[i++];
     else // b[j] < a[i]
