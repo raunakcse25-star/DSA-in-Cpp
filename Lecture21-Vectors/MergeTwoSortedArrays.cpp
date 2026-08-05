@@ -21,7 +21,7 @@ int main()
 while (j < n)
     c[k++] = b[j++];
 
-while (i <= m)
+while (i < m)
     c[k++] = a[i++];
 
 for (int i = 0; i <= m+n; i++) {
